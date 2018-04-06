@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Controller">
+   <children>
+      <Canvas fx:id="canvas" height="450.0" width="700.0" />
+      <HBox fx:id="hbox" alignment="CENTER" prefHeight="50.0" prefWidth="700.0" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>
